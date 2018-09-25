@@ -1,0 +1,39 @@
+<input id="btn" type="button" value="click" onclick="pay(); cls();"/>
+
+
+SEPARATE METHOD:
+var Test = React.createClass({
+   onClick: function(event){
+      func1();
+      func2();
+   },
+   render: function(){
+      return (
+         <a href="#" onClick={this.onClick}>Test Link</a>
+      );
+   }
+});
+
+
+
+SEPARATE METHOD ES6:
+class Test extends React.Component {
+   onClick(event) {
+      func1();
+      func2();
+   }
+   render() {
+      return (
+         <a href="#" onClick={this.onClick}>Test Link</a>
+      );
+   }
+}
+
+
+
+INLINE:
+<a href="#" onClick={(event) => { func1(); func2();}}>Test Link</a>
+
+INLINE ES6:
+
+<a href="#" onClick={function(event){ func1(); func2()}}>Test Link</a>

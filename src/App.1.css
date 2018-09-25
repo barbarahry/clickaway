@@ -1,0 +1,43 @@
+p, h5 {
+font-family:  'Miltonian Tattoo', cursive;
+}
+
+
+h5 {
+  font-family: 'Miltonian Tattoo', cursive;
+  font-family: 'Henny Penny', cursive;
+  }
+
+.navbar-light {
+  
+  background: #eefdd9 !important
+  }
+.bg-light{
+  background: #eefdd9 !important
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  /* margin-bottom: 50px; */
+}
+
+
+
+
+
+
+.pink{
+  background-color: #fffef5;
+  
+  /* margin-bottom: 50px; */
+}
+
+.section-bottom-curve {
+  background-image:url('wave.svg');
+  z-index: 1050;
+  height: 350px;
+  background-position-y: 1px
+} 
+
+

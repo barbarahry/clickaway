@@ -1,0 +1,12 @@
+[
+  { "id": 1, "image": "images/1.png", "selected": false },
+  { "id": 2, "image": "images/2.png", "selected": false },
+  { "id": 3, "image": "images/3.png", "selected": false },
+  { "id": 4, "image": "images/4.png", "selected": false },
+  { "id": 5, "image": "images/5.png", "selected": false },
+  { "id": 6, "image": "images/6.png", "selected": false },
+  { "id": 7, "image": "images/7.png", "selected": false },
+  { "id": 8, "image": "images/8.png", "selected": false },
+
+  { "id": 9, "image": "images/star.png", "selected": false }
+]
