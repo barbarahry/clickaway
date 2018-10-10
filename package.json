@@ -2,16 +2,13 @@
   "name": "clickaway",
   "version": "0.1.0",
   "private": true,
-  "homepage": "htps://barbarahry.github.io/clickaway/",
+  "homepage": "https://barbarahry.github.io/clickaway/",
   "dependencies": {
-    "gh-pages": "^2.0.0",
-    
+    "gh-pages": "^2.0.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
-    
-   
   },
-  "devDependencies":{
+  "devDependencies": {
     "react-scripts": "^1.1.5"
   },
   "scripts": {
