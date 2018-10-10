@@ -2,7 +2,7 @@
   "name": "clickaway",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://barbarahry.github.io/clickaway/",
+  "homepage": "https://barbarahry.github.io/clickaway",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.4.2",
