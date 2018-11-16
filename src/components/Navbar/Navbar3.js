@@ -6,7 +6,7 @@ import React from "react";
  
 const Navbar = ({ score, topScore }) => (
 
-  <nav className="navbar navbar-expand navbar-light bg-light ">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light ">
     <a className="navbar-brand" href="">
     {/* <img src="images/star.png"  alt={props.id} /> */}
     </a>
@@ -19,7 +19,7 @@ const Navbar = ({ score, topScore }) => (
         <li className="nav-item">
           {/* <a className="nav-link" href=""> */}
           <h5 style={{color: '#95a086'}} className="textgamename">
-          {"Never click on the same picture twice. "}
+          {"Click Away Your Memory"}
           </h5>
           {/* </a> */}
         </li>

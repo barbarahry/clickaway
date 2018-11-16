@@ -118,7 +118,7 @@ class App extends Component {
          <div className={lost === maxScore ? "modal display-block shakeshake" : "modal display-none"}><a onClick={() => this.restartFriend() } ><Dashboard/></a></div>
         
         <Wrapper>
-        <div className={lost === 0 ? "shakeshake2" : "wrapper2"}>
+        <div className={lost === 0 ? "shakeshake" : "wrapper2"}>
           {this.state.friends.map(friend => (
             <FriendCard
               selectFriend={this.selectFriend}

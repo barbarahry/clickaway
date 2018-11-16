@@ -8,10 +8,10 @@ height: 130%
   width: 140px;
 }
 
-.face:active {
+.face:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
+  backface-visibility: show;
   perspective: 1000px;
 }
 
@@ -66,8 +66,8 @@ height: 130%
 .shakeshake {
   margin: 0 auto;
   /* width: 140px; */
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
+  animation: shake 0.52s cubic-bezier(.16,.15,.19,.97) both;
+  transform: translate3d(75, 66, 84);
   backface-visibility: hidden;
   /* perspective: 1000px; */
   /* padding-top: 50px; */
@@ -86,5 +86,30 @@ height: 130%
    /* border-radius: 0 0  60% 60%; */
    /* box-shadow: 0px 1px 4px 0px; */
    transform: translate(0, 0);
+}
+
+.shakeshake2 {
+  margin: 0 auto;
+  /* width: 140px; */
+  animation: shake 1.4s cubic-bezier(.60,.07,.69,.07) forwards;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  /* perspective: 1000px; */
+  /* padding-top: 50px; */
+ 
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top:0px;
+  padding-left: 90px;
+  /* justify-content: space-around; */
+  align-content: flex-start;
+  /* overflow: auto; */
+
+   background-size: 100%;
+   /* overflow: hidden; */
+   /* border-radius: 0 0  60% 60%; */
+   /* box-shadow: 0px 1px 4px 0px; */
+   transform: translate(66, 12);
 }
 

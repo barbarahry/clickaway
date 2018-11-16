@@ -23,7 +23,8 @@ class Dashboard extends Component {
         
         <a  onClick={this.hideModal} >
         <p><img alt={""} src={"images/star2.png"} width={""} height={""}/></p>
-        <h2 className="offset"> !You did it!</h2>
+        <h2 className="offset"> Awesome! </h2>
+        <h2 className="offset">  Play Again!</h2>
         </a>
         
      
